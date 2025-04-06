@@ -1,0 +1,20 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;   
+}
+
+.container{
+    width: 100vw;
+    height: 100vh;
+    background: #FFEA35;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+}
+
+.contianerPurple{
+    width: 340px;
+    height: 65px;
+    background: #E016FF;
+}
