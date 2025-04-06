@@ -1,20 +1,31 @@
-*{
+* {
     margin: 0;
     padding: 0;
-    box-sizing: border-box;   
-}
-
-.container{
-    width: 100vw;
+    box-sizing: border-box;
+  }
+  
+  body {
+    background-color: #ffee33;
+    font-family: sans-serif;
     height: 100vh;
-    background: #FFEA35;
+    width: 100vw;
+    overflow: hidden;
+  }
+  
+  .container {
     display: flex;
-    justify-content:center;
-    align-items: center;
-}
-
-.contianerPurple{
-    width: 340px;
-    height: 65px;
-    background: #E016FF;
-}
+    height: 100%;
+  }
+  
+  /* Right layout section */
+  .container > .orange-section,
+  .container > .bar-blue,
+  .container > .pink-section {
+    flex-grow: 1;
+  }
+  
+  /* Group all right-side content in a column */
+  .container {
+    display: flex;
+    flex-direction: row;
+  }
